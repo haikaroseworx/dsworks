@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.haikaroseworx.proximilityemulator.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:paddingTop="32dp"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textSize="24dp"
+            android:text="PROXIMILITY SENSOR EMULATOR"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/white"
+            android:text="By Emmanuel Meena (IMC/BCS/15/78442) \nDS ASSIGNMENT"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/textDarkPrimary"
+        android:text="Camera interface (0,webcam)"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="12dp"
+        android:textColor="@color/textDarkSecondary"
+        android:text="Enter number from 0 , to represent camera"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/textDarkSecondary"
+        >
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="58dp"
+           android:layout_margin="1dp"
+           android:id="@+id/camera"
+           android:background="@color/white"
+           />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/textDarkPrimary"
+        android:text="Number of shots"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="12dp"
+        android:textColor="@color/textDarkSecondary"
+        android:text="Enter number of images to be taken"
+        />
+
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/textDarkSecondary"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_margin="1dp"
+            android:id="@+id/shots"
+            android:background="@color/white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:id="@+id/emulateBtn"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:text="EMULATE"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
